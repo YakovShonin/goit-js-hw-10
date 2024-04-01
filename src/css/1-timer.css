@@ -1,0 +1,81 @@
+.timer {
+    display: flex;
+    gap: 24px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+}
+
+.label {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+    height: 40px;
+    width: 272px;
+    margin-right: 8px;
+    outline: transparent;
+    padding-left: 16px;
+    margin-bottom: 32px;
+}
+
+input:hover {
+    border-color: #000;
+}
+
+input:active {
+    border-color: #4E75FF;
+}
+
+input:disabled {
+    border-color: #808080;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background-color: #4E75FF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #6C8CFF;
+}
+
+button:disabled {
+    background-color: #CFCFCF;
+    color: #989898;
+}
